@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* 2010 - MY EXPRESS FREIGHT -- ROBERT WHYTE */
+/* ======================= NAV ===================== */
+/* ++++++ TOP GLOBAL HORIZONTAL +++++++*/
+#navTop ul {padding-left:0; margin-left:0; color:#fff; float:left; width:940px; font:bold 16px/16px helvetica, arial, sans-serif;}
+#navTop ul li {display: inline; }
+#navTop ul li a {padding: 0 13px 5px 13px; font:bold 16px/16px helvetica, arial, sans-serif; color: #fff; text-decoration: none; float: left;}
+#navTop ul li a:visited {color: #fff; text-decoration: none;}
+#navTop ul li a:hover {color:#9AA2A6; text-decoration:underline;}
+/*#navFtr ul li a#end {margin-left:280px}*/
+
+/* ++++++ FOOTER HORIZONTAL +++++++*/
+#navFtr ul {padding-left:0; margin:0; color:#666; float:left; width:100%; font:normal 12px/16px helvetica, arial, sans-serif;}
+#navFtr ul li {display: inline; }
+#navFtr ul li a {padding: 5px 12px; font:normal 12px/16px helvetica, arial, sans-serif; color: #666; text-decoration: none; float: left; border-right: 1px solid #666;}
+#navFtr ul li a:visited {color: #666; text-decoration: none;}
+#navFtr ul li a:hover {color:#000; text-decoration:underline;}
+
+#navFtr ul li a#last {border-right: 1px solid #FFF;}
+
+/* ++++++ LEFT NAV SUBTIER - VERTICAL +++++++*/
+
+#navLeftBox {background-color:#FFF;margin:0;padding:0}
+#navLeft {margin:0;border-top:1px solid #444}
+#navLeft ul {margin:0;padding:0}
+#navLeft li {list-style-type:none;width:190px; border-bottom:1px dotted #999}
+#navLeft li a {display:block; text-decoration:none; color:#666;  margin:0; padding:10px 0 10px 20px; font:bold 12px/13px helvetica, arial, sans-serif; background:#fff url(../images/bkg_nav_left_arrow.gif) no-repeat 7px 10px}
+#navLeft li a:link, #navLeft li a:visited {margin:0}
+#navLeft li a:hover {text-decoration:none; color:#d2d2d2; background:#777 url(../images/bkg_nav_left_arrow_on.gif) no-repeat 7px 10px}
+
+#navLeft li a#section {color:#000}

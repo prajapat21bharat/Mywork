@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* 2010 - MY EXPRESS FREIGHT -- ROBERT WHYTE */
+/* =================== LAYOUT + STRUCTURE ======================== */
+/* PAGE */
+html {height:100%; overflow-y:scroll;}
+body {background:#fff url(../images/bkg_01.jpg) repeat-x; margin:0; text-align:center;}
+
+/* APP #1 */
+
+.calloutBox {padding:0 0 10px 0;}/*bkg img used to equalize col lengths*/
+
+.column {width:205px; height:400px; float:left;margin:0 21px 0 0; background-color:#e6e6e6;padding:0 0 10px 0}
+.column h3 {background-color:#012d69;text-align:center;padding:15px 0; color:#FFF; height: 30px;}
+.column p {text-align:left;font:bold 13px/25px Arial, Helvetica, sans-serif;color:#666;padding:10px 15px 0 15px;margin:0;}
+.column ul {margin:10px 15px 10px 30px; padding:0;}
+.column li {font:13px Arial, Helvetica, sans-serif;color:#333;padding:0 0 10px 0;}
+
+/* MAIN BOXES */
+#wrapper {width:960px; margin:0 auto; padding:15px 10px 0 10px; text-align:left; position:relative;}
+#arrow {position:absolute; left:350px; top:182px; visibility:visible; width:108px; height:112px; z-index:10; background-color:transparent;}
+
+/*HEADER AREA*/
+#header {height:90px;}
+#contact {width:360px; height:58px; float:right; padding:12px;background:transparent url(../images/bkg_hdr_contact.jpg) no-repeat;}
+#info {font:bold 14px/26px Helvetica, Arial, sans-serif; color:#3B1F00; float:left; width:205px; padding:0 15px 0 0;margin:0 15px 0 0;border-right:1px solid #000;text-align:right;}
+#info a {font:bold 14px/26px Helvetica, Arial, sans-serif; color: #3B1F00; padding:0 15px 0 0;}
+#info a:link {color:#3B1F00; text-decoration:none;}
+#info a:visited {color:#3B1F00; text-decoration:none;}
+#info a:hover {color:#999; text-decoration:underline}
+#info a:active {color:#C00;}
+#login {font:normal 12px/24px Helvetica, Arial, sans-serif; color:#000; float:left; width:120px; padding:0; margin:0; text-align:left;}
+
+#navBox {height:47px; margin:10px 0 28px 0; background:#fff url(../images/bkg_nav.jpg) no-repeat;}
+
+/* ++++ HOME PAGE ++++ */
+#homeSlideBox {margin:0;padding:0;height:330px; background:#fff url(../images/bkg_slideshow.jpg) no-repeat;}
+
+#homeContentMain {margin:5px 0 0 0; padding:0 0 5px 0; border-bottom:1px solid #999;}
+#homeContentMainLeft {width:360px; float:left; margin:20px 0 0 65px; padding:20px 0 0 50px; background:#FFF url(../images/bkg_arrow_sm_01.jpg) no-repeat;}
+#homeContentMainLeft h2 {font-size: 24px; color: #724800;margin:20px 0 0 0}
+#homeContentMainLeft ul {margin-left:0; padding-left:0; list-style: none;}
+#homeContentMainLeft ul li {font:bold 14px/28px Arial, Helvetica, sans-serif; color:#333; padding-left: 15px; background-image: url(../images/bullet_01.gif); background-repeat: no-repeat; background-position: 0 9px;}
+#homeContentMainRight {width:410px; float:left; margin:0 0 0 70px; padding:0;}
+#homeContentMainRight ul{margin:0 0 10px 0; padding-left:0; list-style: none;}
+#homeContentMainRight ul li {font:bold 13px/25px Arial, Helvetica, sans-serif; color:#333; padding-left:10px;}
+#homeContentMainRight ul li a {font:bold 13px/25px Arial, Helvetica, sans-serif;}
+
+#homeContentSub {margin:20px 0 20px 0;padding:10px 0 20px 0;/*border-bottom:1px solid #999;*/}
+#homeContentSubLeft {width:200px; float:left; margin:0 10px 0 0; padding:0 10px 0 110px; border-right:1px dotted #666; background:#FFF url(../images/bkg_packages_sm_01.jpg) no-repeat; height:200px;}
+#homeContentSubLeft p {font:normal 14px/18px Arial, Helvetica, sans-serif}
+#homeContentSubMid {width:150px;float:left;margin:0 10px 0 0;padding:0 20px 0 130px;border-right:1px dotted #666; background:#fff url(../images/bkg_app_01.jpg) no-repeat; height:200px;}
+#homeContentSubRight {width:250px;float:left;margin:0 20px 0 0;padding:0 20px 0 20px; height:240px;}
+/*END HOME ITEMS*/
+
+#aboutcontentMainLeft ul li {color:#333; list-style-type: square;}
+
+#contentBox {}
+
+/*added 2012-0409 */
+#columnLeft {width:190px;float:left;margin:0 30px 0 -40px;padding:0}
+/*added 2012-0409 */
+#columnCenter {width:450px;float:left;margin:0;padding:0}
+
+#columnRight {float:right; width:210px; border-left:1px dotted #666; padding:0 5px 20px 25px; margin:0 0 0 40px;}
+
+#footerBox {margin:50px 0;padding:20px 0 30px 0;border-top:1px solid #999;}
+
+#footerNavBox {width:450px; float:right;}
+
+
+/* CLEAR FLOATS -- SITE WIDE USE*/
+.clearFloat {clear:both; height:0; font-size:1px; line-height:0px;}
+

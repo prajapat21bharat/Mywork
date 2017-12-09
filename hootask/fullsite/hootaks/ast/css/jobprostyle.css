@@ -1,0 +1,75 @@
+html,body{margin:0px auto; padding:0px; font-family (stack): lato}
+header{background-color: #00aaaa; border-top: 4px solid #00aaaa;height:126px;}
+.header{height:120px; background:#00aaaa; color:#FFFFFF;}
+footer{height:30px; padding:5px; text-align:center; color:#fff;}
+.logo{ height:120px; padding-bottom:20px;width:160px; float:left;}
+.logo img{height:100%; width:100%;}
+.logo_right{}
+.logout{float:right; padding:5px;}
+.logout li{ float:left; list-style:none;margin:10px;}
+.logout a{color:#FFFFFF; text-decoration:none;}
+.logout a:hover{color:#e24425; text-decoration:none;transition:all 0.5s ease 0s;}
+.logout img{ height:50px; width:50px; border:3px solid #FFFFFF; box-shadow:0px 1px 1px;}
+.user{text-transform:capitalize; margin-top: 20px;}
+.menu li{ float:left; margin:5px; height:30px; background:#015c5c; line-height:15px; padding:7px; list-style:none;}
+.menu li:hover{background:#c7c9c9;}
+.menu .cur-node{ background:#00aaaa;}
+.selected{background:#E96363;}
+.menu a{ text-decoration:none; color:#FFF;}
+.menu a:hover{ text-decoration:none; color:#FFF;}
+#datatable{ font-size:14px;}
+/*.container{background:green;}*/
+.content p{
+	font-size:21px;
+	color:#1d1e23;
+	float:left;
+	margin-top: 65px;
+	margin-right:70px;
+}
+.capital{text-transform: capitalize;}
+.smalltext{font-size:14px;}
+.td_center{text-align:center;font-weight:bold;}
+.sideview{float:left; margin:10px; padding:5px;}
+.profilepic{ border-top:3px solid #76A7FA; float:left;}
+.personaldetails{ border-top:3px solid #E46F61;}
+.education{ border-top:3px solid #53A93F;}
+.workexperience{ border-top:3px solid #FBCB43;}
+.edit_bttn{ float:right; color:#427FED; font-size:14px;}
+.message{ margin:5px auto; height:20px; width:300px;}
+.inner_container{ background:goldenrod; height:auto;}
+.profile_info{ padding:20px; background:grey;}
+.profile_info{ float:left;}
+.profile_node{ float:left; background:pink;}
+.profile_node img{ height:200px; width:200px;}
+.mandetory{ color:red;}
+
+.grid {color:#FFF;}
+.grid td {
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+.grid tr:nth-child(2n) {
+    background-color: #23303f;
+}
+.grid tr:nth-child(2n+1) {
+    background-color: #343b42;
+}
+.grid th {
+    background: none repeat scroll 0 0 #00aaaa;
+    color: #fff;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+.tbl_add_cate{padding:10px;}
+/*
+.account_setting{width:200px;}
+.account_setting a{ color:#FFF; text-decoration:none;}
+.account_setting a:hover{ color:#FFF; text-decoration:none;}
+.account_setting li{ height:30px; background:#674172; line-height:15px; padding:7px; list-style:none; margin-left:-40px; }
+.account_setting li:hover{ background:#E96363}
+*/
+.hidden{display:none;}
+.nav { color: green; }
+//********************** Mentor *********************************///
