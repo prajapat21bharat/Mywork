@@ -1,0 +1,10 @@
+ntf-22@NTF-22:~$ sudo nano /opt/lampp/etc/extra/httpd-xampp.conf
+paste following in last
+
+# since XAMPP 1.4.3
+<Directory "/opt/lampp/phpmyadmin">
+    AllowOverride AuthConfig Limit
+    Order allow,deny
+    Require all granted
+    Allow from all
+</Directory>

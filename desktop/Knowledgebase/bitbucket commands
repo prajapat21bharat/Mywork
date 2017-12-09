@@ -1,0 +1,11 @@
+git clone https://me@bitbucket.org/me/test.git				//	it will create clone
+cd test														//	change directory to project directory
+touch dummy											
+git add dummy												//	add file to git								
+git commit dummy -m "my first git commit"					//	commit file to git with message
+git push origin master										//	will push code to master branch
+
+git branch													//	show current branch on you are
+git status													//	show the files in direcory in which you are and show you changed something in file
+
+git add -A && git commit									//	commit all using single command

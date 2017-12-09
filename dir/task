@@ -1,0 +1,29 @@
+(12:13:37  IST) Narendra:
+stripe.com
+narendra.thakur@newtechfusion.com
+
+ntf123456
+(06:25:25  IST) Narendra:
+come
+(06:27:49  IST) Narendra:
+3) PHP:
+
+This is a quick test to see how you think and write code.
+Please DO NOT copy/paste code found on other sites; it's pretty obvious when you do and then we cannot evaluate you.
+Apply yourself and write clean, efficient code.
+The solution must be written in core PHP (no framework).
+
+The problem:
+
+Write a function that takes a directory name as an optional parameter.
+If no value is passed, it should take the current working directory by default.
+This will be considered the parent directory.
+
+The function must return an associative array containing a sorted list of all directories present in the parent directory.
+The list must be sorted by total size (in bytes) of the directory.
+For each directory in the list, we must be able to access the following data:
+- total size
+- number of files
+- number of duplicate files (duplicate = 2 files in the directory have the same content)
+
+The format of the return value of the function must be configurable (Array or JSON) by passing a parameter.

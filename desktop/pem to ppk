@@ -1,0 +1,7 @@
+this will work from root
+ie. su
+
+puttygen <.pem filepath> -o <save filename.ppk>
+set permission by command
+sudo chmod 754 xxx.ppk 
+chmod 777 -R <Save file name.ppk>

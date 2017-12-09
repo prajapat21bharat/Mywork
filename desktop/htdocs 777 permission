@@ -1,0 +1,3 @@
+sudo chmod -R 777 /opt/lampp/htdocs/ *
+
+sudo chmod -R 777 /opt/lampp/htdocs/drupal7 *

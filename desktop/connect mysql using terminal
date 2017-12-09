@@ -1,0 +1,45 @@
+Connect server using terminal
+
+first type command 
+
+ ssh username@hostname
+ 
+ if ask yes or no type yes
+ 
+ then it will as for password type the password of host machine
+ 
+ for ex if you have ftp details so
+ 
+ hostname is ftp host
+ username is ftp user
+ password is ftp password
+ 
+then type command
+	mysql -u root -p
+it will as for password type database password here
+
+
+
+'database' => 'inhairent_new',
+'username' => 'root',
+'password' => 'ntf@12345',
+'host' => '104.130.28.34',
+ 
+ssh root@104.130.28.34
+
+password MonuGary1
+
+inhairent will inport if import sql file is placed at var/www/
+
+GRANT ALL ON app_inhairent_db.* TO root@'104.130.28.34' IDENTIFIED BY 'ntf@12345';			// create password for database
+
+
+mysql -u root -pMonuGary1 inhairent_app_db < ntfdevel_inhaire.sql
+
+mysql -u root -p app_inhairent_db < ntfdevel_inhaire.sql
+
+mysqladmin -u root -p create appinhairent_db;
+
+mysql -u root -p app_inhairent_db < ntfdevel_inhaire.sql
+
+

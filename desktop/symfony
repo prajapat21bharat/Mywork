@@ -1,0 +1,88 @@
+install specific version of symfony
+
+ symfony new symfony_2_8 2.8		//	symfony new root_folder_name version
+
+
+Remove or delete folder
+
+sudo rm -rf /opt/lampp/htdocs/symfony-demo/
+
+create new project command
+
+symfony new blog 	//blog is root folder name
+
+command to install stable ver.
+
+$ php composer.phar create-project symfony/framework-standard-edition starwarsevent @stable
+
+Create New Bundle Command
+
+	goto to root directory of project
+	run command
+	php app/console generate:bundle				ex. I am going to create MytestB bundle
+	
+
+
+Delete Existing Bundle
+
+	Fist delete bundle folder under "src" folder then
+	goto "AppKernel.php" under app/AppKernel.php and remove line which has bundle file name then 
+	go under config folder under app/config/routing.yml and remove route of bundle
+	
+
+Controller name and view folder name should be same
+
+
+
+Symfony error pages found at
+
+/opt/lampp/htdocs/symfony_demo/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/views/Exception
+
+
+Clear cache
+
+php app/console cache:clear
+
+Errors comes
+
+sudo setfacl -R -m u:www-data:rwx app/cache/ app/logs/
+sudo setfacl -dR -m u:www-data:rwx app/cache/ app/logs/
+
+all css,js,images are put under web directory
+
+EventBundle:Default:index == Bundle name:Controller Class Name:Function Name
+
+importing existing Database
+
+php bin/console doctrine:mapping:import LoginBundle
+										(Bundle Name)
+ 
+ //annotation --filter="user"		// don't use this command
+										
+										
+to see what options available for database run command
+
+apt-cache search php5-
+
+Error - Database driver does not found
+Solution :-	sudo apt-get install php5-mysql
+
+
+create database command
+	php bin/console doctrine:database:create
+
+php app/console translation:extract de --bundle=AcmeDemoBundle --enable-extractor=jms_i18n_routing --output-format=yml --exclude-dir=Tests
+php app/console translation:extract en --bundle=AccountBundle --enable-extractor=jms_i18n_routing --output-format=yml --exclude-dir=Tests
+
+Download Fos Bundle
+First Create new Bundle. Bundle Name Should be FOS/UserBundle
+	so structure will src->FOS->UserBundle
+Then Run command
+	composer require friendsofsymfony/user-bundle "~2.0@dev"
+						or
+	composer require friendsofsymfony/user-bundle "dev-master"
+	composer require friendsofsymfony/user-bundle "~1.3"
+	composer require friendsofsymfony/facebook-bundle "dev-master"
+	composer require hwi/oauth-bundle
+	composer require jms/translation-bundle
+	composer require jms/i18n-routing-bundle

@@ -1,0 +1,23 @@
+How To remove index.php from url in codeigniter ?
+
+
+Goto		:	application->config->config.php
+
+Find	 	:	$config['index_page'] = 'index.php';
+
+Replace		:	$config['index_page'] = '';
+
+Now create new htaccess file & paste following code and save by name as .htaccess on root directory of your project
+
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ index.php/$1 [L] 
+</IfModule>
+
+
+Now Refresh the url index.php is removed from url
+
+

@@ -1,0 +1,16 @@
+Open Xampp Automatically
+
+sudo  /opt/lampp/lampp start
+sudo gedit /etc/init.d/lampp
+
+
+paste following code in open file
+
+#!/bin/bash
+/opt/lampp/lampp start
+
+
+sudo chmod +x /etc/init.d/lampp
+sudo update-rc.d lampp defaults
+
+restart the system

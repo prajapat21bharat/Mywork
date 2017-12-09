@@ -1,0 +1,44 @@
+open php.ini from /opt/lampp/etc location
+
+i.e.	/opt/lampp/etc/php.ini			//	file location
+
+then find for 	:	post_max_size
+
+change the size in mb such as you want 512mb file size limit so type 512M
+
+then again find for :	upload_max_filesize
+
+similarly change the size in mb such as you want 512mb file size limit so type 512M
+
+now save the file and restart the xampp
+
+in ubauntu tye on terminal to restart the xampp
+
+
+sudo /opt/lampp/lampp restart 
+
+-------------------------------------------------------------------------------------------
+
+to increase execution time
+
+/opt/lampp/phpmyadmin add 
+
+$cfg['ExecTimeLimit'] = 0;       // add this in config.inc.php at /opt/lampp/phpmyadmin
+
+and in /opt/lampp/etc/php.ini change the following
+
+max_execution_time = 300
+max_input_time = 540
+memory_limit = 1000M
+
+
+-------------------------------------------------------------------------------------------
+
+Phpmyadmin Token Mismatch
+
+    open /opt/lampp/etc/php.ini
+    find ;session.save_path = "/tmp"
+    remove first semicolon from this line
+    restart apache by executing sudo service apache2 restart
+    
+-------------------------------------------------------------------------------------------    

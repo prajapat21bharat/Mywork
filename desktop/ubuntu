@@ -1,0 +1,32 @@
+remove files using terminal
+ex. 	data/test
+		test/a.js ,test/a.php ,test/a.css ,
+	now you want to del test folder
+	
+cd data
+rm -rf test
+
+------------------------------------------------------------------------
+Find location of php.ini
+
+php --ini
+
+if php is install this command will run
+
+else you have to run first this one
+
+sudo apt-get install php5-cli
+
+then run 
+
+php --ini
+
+it will give result as 
+
+Configuration File (php.ini) Path: /etc/php5/cli
+Loaded Configuration File:         /etc/php5/cli/php.ini
+Scan for additional .ini files in: /etc/php5/cli/conf.d
+Additional .ini files parsed:      /etc/php5/cli/conf.d/pdo.ini
+
+
+

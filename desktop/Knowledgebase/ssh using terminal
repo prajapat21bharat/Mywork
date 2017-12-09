@@ -1,0 +1,40 @@
+Type command 
+
+ssh username@host
+
+ssh ziznl@symfdev.ziz.nl
+
+
+if any specified port no use
+
+ssh -p 2801 ziznl@symfdev.ziz.nl
+password	iEiaG1RG9
+
+
+ssh -p 2801 ziznl@symfdev.ziz.nl
+password	iEiasdd1RG
+
+FTP Development Domain
+
+ftp server : cvp.idfnv.net
+ftp username : site@symfdev.ziz.nl
+ftp password : GwXwD21l
+
+MySQL
+
+Database host : http://cvp.idfnv.net
+Database name : invoicecom_dev
+Database user : invoicecom_dev
+Database password : h2F7dere1f
+
+Database host : http://cvp.idfnv.net
+Database name : symfony_dev
+Database user : symfony_dev
+Database password : hjfF648*#f
+
+Shell access ziz.nl
+
+Server host : http://cvp.idfnv.net
+Server port : 2801
+Server user : ziznl
+Database password : iEiasdd1RG

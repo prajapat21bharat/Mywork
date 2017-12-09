@@ -1,0 +1,135 @@
+Steps to install & Configure FOSUserBundle
+
+Assumption You have Installed Symfony, Composer and Php.
+
+1)	Enable Translator in config.yml
+
+	# app/config/config.yml
+
+	framework:
+		translator: ~
+
+2)	Download friendsofsymfony Bundle using Composer
+
+	composer require friendsofsymfony/user-bundle "~2.0@dev"
+	
+	It will install "friendsofsymfony" in vendor folder
+	
+3)	Enable the bundle in Appkernel.php
+
+	<?php
+	// app/AppKernel.php
+
+	public function registerBundles()
+	{
+		$bundles = array(
+			// ...
+			new FOS\UserBundle\FOSUserBundle(),
+			// ...
+		);
+	}
+	
+4)	Provide Driver Details for the Bundle
+
+	# app/config/config.yml
+	fos_user:
+		db_driver: orm # other valid values are 'mongodb', 'couchdb' and 'propel'
+		firewall_name: main
+		user_class: YourBundle\Entity\User			//	YourBundle is Bundle name we will create LoginBundle instead of YourBundle
+		
+5)	Now Create New Bundle Using command
+
+	php bin/console generate:bundle
+				or
+	php app/console generate:bundle
+	
+	and provide the details
+	
+	Bundle namespace: LoginBundle
+	Determine the format to use for the generated configuration.
+
+	Configuration format (yml, xml, php, or annotation): yml
+	
+	For other details hit Enter
+	
+6)	Create ORM User class in src/LoginBundle/Entity/User.php
+
+	<?php
+	// src/LoginBundle/Entity/User.php
+
+	namespace LoginBundle\Entity;
+
+	use FOS\UserBundle\Model\User as BaseUser;
+	use Doctrine\ORM\Mapping as ORM;
+
+	/**
+	 * @ORM\Entity
+	 * @ORM\Table(name="fos_user")
+	 */
+	class User extends BaseUser
+	{
+		/**
+		 * @ORM\Id
+		 * @ORM\Column(type="integer")
+		 * @ORM\GeneratedValue(strategy="AUTO")
+		 */
+		protected $id;
+
+		public function __construct()
+		{
+			parent::__construct();
+			// your own logic
+		}
+	}
+
+8)	Configure Security file
+
+# app/config/security.yml
+security:
+    encoders:
+        FOS\UserBundle\Model\UserInterface: bcrypt
+
+    role_hierarchy:
+        ROLE_ADMIN:       ROLE_USER
+        ROLE_SUPER_ADMIN: ROLE_ADMIN
+
+    providers:
+        fos_userbundle:
+            id: fos_user.user_provider.username
+
+    firewalls:
+        main:
+            pattern: ^/
+            form_login:
+                provider: fos_userbundle
+                csrf_token_generator: security.csrf.token_manager
+                # if you are using Symfony < 2.8, use the following config instead:
+                # csrf_provider: form.csrf_provider
+
+            logout:       true
+            anonymous:    true
+
+    access_control:
+        - { path: ^/login$, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/register, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/resetting, role: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/admin/, role: ROLE_ADMIN }
+
+
+7)	Importing user routing files
+
+	fos_user:
+		resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
+9)	Update your database schema using command
+
+	php bin/console doctrine:schema:update --force
+					or
+	php app/console doctrine:schema:update --force
+	
+	if command run successfully it will create fos_user table in your database
+
+
+Now FOSUserBundle is Configured Successfully. Ypu can access Login & Registration Page On your Browser
+
+	

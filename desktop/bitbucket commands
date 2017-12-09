@@ -1,0 +1,34 @@
+git clone https://me@bitbucket.org/me/test.git				//	it will create clone
+cd test														//	change directory to project directory
+touch dummy											
+git add dummy												//	add file to git								
+git commit dummy -m "my first git commit"					//	commit file to git with message
+git push origin master										//	will push code to master branch
+
+git branch													//	show current branch on you are
+git status													//	show the files in direcory in which you are and show you changed something in file
+
+git add -A && git commit									//	commit all using single command
+
+git config --global user.name "devendrapatel"
+git config --global user.email  "devendra.patel@farsightsoftware.com"
+------------------------------------------------------------------------
+
+Add an existing code to an empty repository
+
+goto the root of project you want to upload then run the following commands
+
+git init
+git add .
+git commit -m 'initial commit of full repository'
+git push -u origin --all
+
+------------------------------------------------------------------------
+git commit application/controllers/Admin.php -m "add choose and unchoose team"
+
+git commit application/controllers/Api.php -m "add choose and unchoose team"
+git commit application/controllers/Users.php -m "add choose and unchoose team"
+git commit application/views/Admin/setpoints.php -m "add choose and unchoose team"
+git commit application/views/home.php -m "add choose and unchoose team"
+git commit application/views/layout/admin_header.php -m "add choose and unchoose team"
+git commit assets/css/styles/custom.css -m "add choose and unchoose team"

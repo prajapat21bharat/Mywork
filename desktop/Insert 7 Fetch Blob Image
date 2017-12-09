@@ -1,0 +1,15 @@
+For Inserting into DB
+
+$db = mysqli_connect("localhost","root","","DbName"); //keep your db name
+$image = addslashes(file_get_contents($_FILES['images']['tmp_name']));
+//you keep your column name setting for insertion. I keep image type Blob.
+$query = "INSERT INTO products (id,image) VALUES('','$image')";  
+$qry = mysqli_query($db, $query);
+
+For Accessing image From Blob
+
+$db = mysqli_connect("localhost","root","","DbName"); //keep your db name
+$sql = "SELECT * FROM products WHERE id = $id";
+$sth = $db->query($sql);
+$result=mysqli_fetch_array($sth);
+echo '<img src="data:image/jpeg;base64,'.base64_encode( $result['image'] ).'"/>';

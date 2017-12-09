@@ -1,0 +1,30 @@
+To Open xampp Controll Panel follow the process
+
+sudo gedit ~/.local/share/applications/xampp-control-panel.desktop
+
+it will open blank page then paste the following code and save file
+
+
+[Desktop Entry]
+Comment=Start and Stop XAMPP
+Name=XAMPP Control Panel
+Exec=sudo -i python /opt/lampp/share/xampp-control-panel/xampp-control-panel.py
+Icon=/usr/share/icons/Humanity/devices/24/network-wired.svg
+Encoding=UTF-8
+Terminal=false
+Name=XAMPP Control Panel
+Comment=Start and Stop XAMPP
+Type=Application
+Icon=/usr/share/icons/Humanity/devices/24/network-wired.svg
+
+
+
+Now goto lampp
+
+cd /opt/lampp
+sudo ./manager-linux.run
+
+It will open controll panel
+
+
+

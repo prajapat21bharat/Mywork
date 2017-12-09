@@ -1,0 +1,109 @@
+How to create Login Logout functionality with session ?
+
+In Few Basic Steps we can create Login-Logout with session
+
+Step 1 :	
+	
+	Load Libraries in autoload.php		//Location :	application/config/autoload.php
+	
+	$autoload['libraries'] = array('database', 'email', 'session');
+	
+
+Step 2 :	
+	
+	Load Drivers in autoload.php		//Location :	application/config/autoload.php
+	
+	$autoload['drivers'] = array('session');
+	
+	
+Step 3 :	
+	
+	Load Helper Libraries in autoload.php		//Location :	application/config/autoload.php
+	
+	$autoload['helper'] = array('url', 'file');
+
+
+Now Comes Logical part We will create Two Controller files & Two View Files One for Before Login & Another for After Login Functionalities
+
+Our Two controller will "Account" and "User" and views will "login_view" and "dashboard_view"
+
+Step 4 :	
+
+	First Create view using simple form on login_view page
+	
+	Form Code:
+	
+	<form method="post" action="<?php echo site_url('account/login');?>">
+		<table>
+			<tr>
+				<td><input type="text" name="email" value="" placeholder="E-mail"/></td>
+			</tr>
+			<tr>
+				<td><input type="password" name="password" value="" placeholder="*****" /></td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="login" value="Login" /></td>
+			</tr>
+		</table>
+	</form>
+
+
+Step 5 :	
+	
+	Add login logic on Account Controller Page We will use simple & static you can use dynamic using database
+	
+	function login()
+	{
+		$email=$this->input->post('email');
+		$password=$this->input->post('password');
+		if($email=='test@gmail.com' && $password=='123456')
+		{
+			$session_data=array(
+								'id'=>1,
+								'email'=>$email,
+								'islogin'=>True,
+							);
+			$this->session->set_data($session_data);
+			redirect('user');
+		}
+	}
+	
+Step 6:
+
+	On User Controller create the constructor function so that it will called before calling any function
+	
+	public function __contruct()
+	{
+		parent::__contruct();
+		if((!$this->session->has_userdata('id'))||(!$this->session->has_userdata('email'))||(!$this->session->has_userdata('islogin')))
+		{
+			redirect('account/login');
+		}
+	}
+
+Step 7:
+
+	Create a function on User controller to show welcome page simply load welcome page
+	
+	function dashboard()
+	{
+		$this->load->view('dashboard');
+	}
+	
+Step 8:
+	
+	Create dashboard view to show welcome message and user email id 
+	
+	<a href="<?php echo site_url('account/logout');?>">Logout</a>
+	
+	<h3>Hello <?php echo $this->session->userdata('email');?><h3> 
+	
+Step 9:
+
+	Create Logout functionality on Account controller page
+	
+	function logout()
+	{
+		$this->session->sess_destroy();
+		redirect('account/login');
+	}

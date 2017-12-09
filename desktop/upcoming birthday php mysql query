@@ -1,0 +1,28 @@
+select dob, month(dob) as m, day(dob) as d, year(dob) as y FROM tbl_users WHERE month(dob) ='5' ORDER BY m, d, y ASC 
+
+select dob, month(dob) as m, day(dob) as d, year(dob) as y FROM tbl_users WHERE month(dob) ='5' && day(dob) >= 11 ORDER BY m, d, y ASC 
+	SELECT *
+	FROM add_employee
+	WHERE month( birthday ) = '5' && day( birthday ) >=11
+	ORDER BY day( birthday ) ASC
+	LIMIT 0 , 30
+
+
+select birthday FROM add_employee
+WHERE
+  (
+	birthday date('m')
+  ) 
+ORDER BY 
+  birthday date('d') ASC"; 
+
+$data
+if(data['bday']==date('Y-m-d'))
+{
+	echo "today is dsg ";
+}
+$this->user_mode->get_joins('add_emp', array('month( birthday )'=>date('m'),'day( birthday )>=' =>date('d')));
+
+
+/*Next & previous 7 days*/
+SELECT * FROM tbl_users WHERE DATE_ADD(dob, INTERVAL YEAR(CURDATE())-YEAR(dob) YEAR) BETWEEN DATE_SUB(CURDATE(), INTERVAL 7 DAY) AND DATE_ADD(CURDATE(), INTERVAL 7 DAY) ORDER BY dob ASC 

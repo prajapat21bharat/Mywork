@@ -1,0 +1,15 @@
+find for mod_php5.c
+
+and add these two lines
+
+php_value upload_max_filesize 30M
+php_value post_max_size 30M
+
+if not found then add this code in your htaccess file
+
+
+
+<IfModule mod_php5.c>
+	php_value upload_max_filesize 30M
+	php_value post_max_size 30M
+</IfModule>

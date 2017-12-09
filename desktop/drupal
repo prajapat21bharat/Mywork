@@ -1,0 +1,142 @@
+
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+if body or any field of any content has error
+This field has been disabled because you do not have sufficient permissions to edit it.
+
+so there may be one Text format & permission of that text format is not give to that user
+open admin/people/permissions serach for that text format & give the permission for that user role & save 
+------------------------------------------------------------------------
+
+print menu in tpl
+
+$menu = menu_navigation_links('menu-your-custom-menu-name');
+print theme('links__menu_your_custom_menu_name', array('links' => $menu));
+replace your-custom-menu-name with your menu machicne name found in url 
+when edit that menu then replace your_custom_menu_name
+
+------------------------------------------------------------------------
+
+Get Current page Url
+echo current_path();
+it will show as cart/checkout/complete
+------------------------------------------------------------------------
+get logged in user id on any where use
+global $user; print $user->uid;
+------------------------------------------------------------------------
+print view in page or tpl files 
+$output =  views_embed_view('tid_book', 'block_1');
+syntax:	views_embed_view('view_name', 'block_name or page_name');
+block_name or page_name can be found in advance at right hand side and
+view_name found in url
+print $output;
+------------------------------------------------------------------------
+save node or create node using programming
+
+		$node->type = 'tid_books';
+		node_object_prepare($node);
+		$node->title    = $albumName;
+		$node->language = 'und';
+		node_save($node);
+------------------------------------------------------------------------
+form_get_errors is used to print errors		//location include folder on
+root 
+------------------------------------------------------------------------
+add place holder using hook alter
+$form['mergevars']['EMAIL']['#attributes'] = array(
+ 'placeholder'=> t('Your placeholder'),
+);
+------------------------------------------------------------------------
+print block in tpl
+
+$block = module_invoke('mailchimp_signup','block_view' ,'test_mailchimp_form');
+print render($block['content']);
+------------------------------------------------------------------------
+Print simple block in tpl files
+just copy paste the code & replace the 28 with your block id found in the url when edit or configure the block
+<?php	
+
+$block = module_invoke('block', 'block_view', '28');
+print render($block['content']);
+
+?>
+------------------------------------------------------------------------
+
+
+create page tpl for taxonomy vocab
+find for themename_preprocess_page add this is template.php
+
+if (arg(0) == 'taxonomy' && arg(1) == 'term' && is_numeric(arg(2)))
+{
+    $tid = arg(2);
+    
+    $vid = db_query("SELECT vid FROM {taxonomy_term_data} WHERE tid = :tid", array(':tid' => $tid))->fetchField();
+	
+    $vars['theme_hook_suggestions'][] = 'page__vocabulary__'.$vid;
+}
+
+now create tpl named as "page--vocabulary--X.tpl.php";
+------------------------------------------------------------------------
+print base url
+<?php echo base_url(); 
+	or echo base_path();
+?>
+------------------------------------------------------------------------
+lock may available or
+includes/database/database.inc on line 2171
+
+open php.ini and my.cnf located on /opt/lampp/etc
+find max and change all limits to 1024 and max_execution_time=0
+------------------------------------------------------------------------
+Get field value in Form alter drupal 8
+
+$field_e_mail_address=$form_state->getValue('field_e_mail_address');
+$emailId=$field_e_mail_address[0]['value'];
+
+syntax:	$form_state->getValue('machine name');
+to get machine name print $form_state->getValue();	// it will show all value of form & system will not hang
+------------------------------------------------------------------------
+print nid in drupal 8 twig file
+
+add this code in  _preprocess_page in .theme file at following location
+
+ryder/themes/theamname/theamname.theme
+
+find for _preprocess_page and add this
+
+	$node = \Drupal::routeMatch()->getParameter('node');
+	if ($node) {
+	  $variables['nodeid'] = $node->id();
+	}
+
+now in twig print as {{ nodeid }}
+
+------------------------------------------------------------------------
+Lock may available
+
+PDOException: SQLSTATE[HY000] [2002] 
+Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (111)
+in lock_may_be_available() (line 167 of /var/www/html/includes/lock.inc).
+
+Open file config.inc.php located on /etc/phpmyadmin/config.inc.php
+if not able to open file having permission issue
+
+change working directoy  to /etc
+run command
+
+sudo nano phpmyadmin/config.inc.php
+ctrl+X
+then type Y and hit enter
+
+now restart mysql using command
+sudo /etc/init.d/mysql restart
+
+------------------------------------------------------------------------

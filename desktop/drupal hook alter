@@ -1,0 +1,60 @@
+
+/**
+ * Implements hook_form_alter().
+ */
+
+function cart_extras_form_alter(&$form, &$form_state, $form_id){
+
+    if ($form_id == 'uc_cart_checkout_form'){
+
+	 $form['panes']['quotes']['quote_button']['#value'] = 'my calculate shipping';
+
+	 $form['#validate'][] = 'cart_extras_form_validate';
+
+  	 $form['#submit'][] = 'cart_extras_form_submit';
+    }
+
+}
+
+/**
+ * Implements hook_form_validate().
+ */
+
+function cart_extras_form_validate($form, &$form_state) {
+
+	$shipping_notifications_email = $form_state['input']['panes']['shipping_notifications']['shipping_notifications_email'];
+	if (!valid_email_address($shipping_notifications_email)) {
+		form_set_error('submitted][email_address', t('Please enter valid email address i.e example@example.com in shipping notifications.'));
+	}
+}
+
+
+/**
+ * Implements hook_form_submit().
+ */
+
+function cart_extras_form_submit($form, &$form_state) {
+        $shipping_notifications_order_id = $form_state['build_info']['args'][0]->order_id;
+	$shipping_notifications_uid = $form_state['build_info']['args'][0]->uid;
+	$shipping_notifications_email = $form_state['input']['panes']['shipping_notifications']['shipping_notifications_email'];
+
+	$count = db_select('shipping_notifications')
+		->condition('uid', $shipping_notifications_uid)
+		->condition('order_id', $shipping_notifications_order_id)
+		->countQuery()->execute()->fetchField();
+
+		 if ($count > 0) {
+			db_update('shipping_notifications')
+			      ->condition('uid', $shipping_notifications_uid)
+			      ->condition('order_id', $shipping_notifications_order_id)
+			      ->fields(array('uid' => $shipping_notifications_uid, 'order_id' => $shipping_notifications_order_id, 'email' => $shipping_notifications_email))
+			      ->execute();
+		}
+		else{
+			db_insert('shipping_notifications')
+				->fields(array('uid' => $shipping_notifications_uid, 'order_id' => $shipping_notifications_order_id, 'email' => $shipping_notifications_email))
+				->execute();
+		}
+	
+}
+

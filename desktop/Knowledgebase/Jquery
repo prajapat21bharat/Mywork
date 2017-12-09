@@ -1,0 +1,351 @@
+
+------------------------------------------------------------------------
+change element tag name or replace element by jquery
+
+jQuery('.new-t').replaceWith('<span>' + jQuery('.new-t .view-content').html() +'</span>');
+
+------------------------------------------------------------------------
+add dynamic id to all li
+$('#sortable li').each(function(i,el){
+			el.id = i+1-1;
+		});
+------------------------------------------------------------------------
+Hide all empty tr has class w-product-section-1
+
+jQuery(function() {
+  jQuery("tr.w-product-section-1:not(:has(td))").hide();
+  
+});
+------------------------------------------------------------------------
+remove all empty tags in class
+
+jQuery(function() {
+  jQuery(".region-content p:empty").remove();
+});
+
+------------------------------------------------------------------------
+
+remove all p tag containg space
+
+jQuery('p').each(function(){
+   var htm=jQuery(this).html();
+  if(htm=='&nbsp;')
+  {
+    jQuery(this).remove();
+  }
+})
+------------------------------------------------------------------------
+add class external to anchor has href to other sites
+
+jQuery('a').filter(function() {
+   return this.hostname && this.hostname !== location.hostname;
+}).addClass("external");
+jQuery('.external').attr('target','_blank');
+
+------------------------------------------------------------------------
+if an error comes like 
+TypeError: $(...).dataTable is not a function
+
+so to remove this reorder the js files
+
+tip:	add jquery min.js before error jquery file
+------------------------------------------------------------------------
+make table sortable without using jq pure js
+js:
+function sortTable(table, col, reverse) {
+    var tb = table.tBodies[0], // use `<tbody>` to ignore `<thead>` and `<tfoot>` rows
+        tr = Array.prototype.slice.call(tb.rows, 0), // put rows into array
+        i;
+    reverse = -((+reverse) || -1);
+    tr = tr.sort(function (a, b) { // sort rows
+        return reverse // `-1 *` if want opposite order
+            * (a.cells[col].textContent.trim() // using `.textContent.trim()` for test
+                .localeCompare(b.cells[col].textContent.trim())
+               );
+    });
+    for(i = 0; i < tr.length; ++i) tb.appendChild(tr[i]); // append each row in order
+}
+
+function makeSortable(table) {
+    var th = table.tHead, i;
+    th && (th = th.rows[0]) && (th = th.cells);
+    if (th) i = th.length;
+    else return; // if no `<thead>` then do nothing
+    while (--i >= 0) (function (i) {
+        var dir = 1;
+        th[i].addEventListener('click', function () {sortTable(table, i, (dir = 1 - dir))});
+    }(i));
+}
+
+function makeAllSortable(parent) {
+    parent = parent || document.body;
+    var t = parent.getElementsByTagName('table'), i = t.length;
+    while (--i >= 0) makeSortable(t[i]);
+}
+
+window.onload = function () {makeAllSortable();};
+
+html:
+
+<table>
+  <thead>
+    <tr>
+      <th>c1</th>
+      <th>c2</th>
+      <th>c3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>a</td><td>t</td><td>p</td>
+    </tr>
+    <tr>
+      <td>a</td><td>v</td><td>r</td>
+    </tr>
+    <tr>
+      <td>f</td><td>a</td><td>d</td>
+    </tr>
+    <tr>
+      <td>h</td><td>t</td><td>i</td>
+    </tr>
+  </tbody>
+</table>
+
+css:
+
+table {width: 100%;font: 12px arial;}
+th, td {min-width: 40px;text-align: center;}
+th {font-weight: bold;}
+
+------------------------------------------------------------------------
+Ajax code
+
+$(function(){
+    var lastData = '';
+    function values(){
+       $.ajax({
+           type: "GET", 
+           url: "task.php",
+           success: function(data){
+                if (data != lastData) {
+                    $('div#myFrame').html(data);
+                    lastData = data;
+                }
+           }
+       });
+   };
+   setInterval(values, 1000);
+});
+------------------------------------------------------------------------
+Nice Active deactive
+
+<hr>
+    
+<div class="checkbox">
+<input type="checkbox" value="None" id="checkbox" name="check" />
+    <label for="checkbox"></label>
+</div>
+    
+<hr>
+
+
+body {
+   padding: 0;
+   margin: 0;
+   background: #444;
+}
+
+input[type=checkbox] {
+	visibility: hidden;
+}
+
+.checkbox {
+   width: 80px;
+   height: 26px;
+   margin: auto;
+   position: relative;
+   background: #fff;
+   border: 1px solid #2e2e2e;
+   border-radius: 2px;
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+}
+
+.checkbox:after {
+   content: 'No';
+   font: 12px/26px Arial, sans-serif;
+   color: #b50000;
+   position: absolute;
+   right: 10px;
+   z-index: 0;
+   font-weight: bold;
+}
+
+.checkbox:before {
+   content: 'Yes';
+   font: 12px/26px Arial, sans-serif;
+   color: #00bf00;
+   position: absolute;
+   left: 10px;
+   z-index: 0;
+   font-weight: bold;
+}
+
+.checkbox label {
+   display: block;
+   width: 34px;
+   height: 20px;
+   position: absolute;
+   top: 3px;
+   left: 3px;
+   z-index: 1;
+   background: #2e2e2e;
+   -o-transition: all 0.5s linear;
+   -moz-transition: all 0.5s linear;
+   -khtml-transition: all 0.5s linear;
+   -webkit-transition: all 0.5s linear;
+   -ms-transition: all 0.5s linear;
+   transition: all 0.5s linear;
+   cursor: pointer;
+   border-radius: 2px;
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+}
+
+.checkbox input[type=checkbox]:checked + label {
+   left: 43px;
+}
+
+
+------------------------------------------------------------------------
+To sort item alphabatically
+
+        <ul id="list">
+            <li id="34">Peter</li>
+            <li id="92">Mary</li>
+            <li id="49">Paul</li>
+            <li id="12">Allen</li>
+            <li id="24">James</li>
+            <li id="83">Vicki</li>
+            <li id="68">Brock</li>
+            <li id="1200">Dana</li>
+            <li id="56">Frank</li>
+            <li id="128">Gil</li>
+            <li id="146">Helen</li>
+        </ul>
+        
+
+var mylist = jQuery('list');
+var listitems = mylist.children('li').get();
+
+listitems.sort(function(a, b) 
+{
+   return jQuery(a).text().toUpperCase().localeCompare(jQuery(b).text().toUpperCase());
+})
+
+mylist.empty().append(listitems);
+
+//$.each(listitems, function(idx, itm) { mylist.append(itm); });
+
+
+------------------------------------------------------------------------
+
+To get starting & end date of week in php
+
+$weekstartday = date("Y-m-d H:i:s",(strtotime('monday this week')));
+$weekendday = date("Y-m-d H:i:s",(strtotime('monday this week + 7 day')));
+
+------------------------------------------------------------------------
+
+To encode & decode url data using jquery
+
+encodeURIComponent
+decodeURIComponent
+
+------------------------------------------------------------------------
+
+To Reaload page on click
+
+ $(document).ready(function() {
+     //added missing-v quotes 
+     $('#closeAuction').click(function() {
+        location.reload();     
+     });    
+   });   
+
+Live Demo	:	https://jsfiddle.net/bo9ztc12/1/
+
+------------------------------------------------------------------------
+
+Submit form on image click
+
+jQuery(document).ready(function(){
+	jQuery(".submit-img").on("click", function(){
+		jQuery('.my-form').submit();
+	});
+});
+
+Live https://jsfiddle.net/w7ke27Lv/17/
+
+
+------------------------------------------------------------------------
+get base url using jquery
+
+jQuery(document).ready(function(){
+  var getUrl = window.location;
+  var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
+  console.log(baseUrl);
+})
+
+------------------------------------------------------------------------
+
+changing url using jquery
+
+jQuery(document).ready(function(){
+  var getUrl = window.location;
+  var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
+  console.log(baseUrl);
+  var newUrl= baseUrl+"#bharat";
+  location.href = newUrl;
+})
+
+you can also get following variables as
+/*
+http://www.refulz.com:8082/index.php#tab2?foo=789
+
+Property    Result
+------------------------------------------------------------------------
+host        www.refulz.com:8082
+hostname    www.refulz.com
+port        8082
+protocol    http:
+pathname    index.php
+href        http://www.refulz.com:8082/index.php#tab2
+hash        #tab2
+search      ?foo=789
+
+var x = $(location).attr('<property>');*/
+------------------------------------------------------------------------
+jQuery(document).ready(function(){
+		
+		var url=jQuery(location).attr('href');
+		var path=url.substring(url.lastIndexOf('/') + 1);
+
+
+  jQuery('.rtbs_menu li').removeClass('current');
+  jQuery('.rtbs_menu ul li a').removeClass('active');
+  jQuery('.rtbs_menu ul li a').each(function()
+  {
+	  
+	  var href=jQuery(this).attr('href');
+		if(href==path)
+		{
+		alert('ok');
+			jQuery(this).addClass('active');
+			jQuery(this).parent().addClass('current');
+		}
+    console.log(href);
+    console.log(path);
+	});
+});
+------------------------------------------------------------------------

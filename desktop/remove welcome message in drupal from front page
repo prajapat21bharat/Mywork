@@ -1,0 +1,25 @@
+To Remove "Welcome Message & no frontpage content created yet" in drupal
+
+open the teamplate file of the current default theme
+
+and search for "_preprocess_page";
+ now add code just before the closing of the function
+ 
+ Code:
+ 
+ 
+  if (drupal_is_front_page()) {
+    unset($vars['page']['content']['system_main']['default_message']); //will remove message "no front page content is created"
+    drupal_set_title(''); //removes welcome message (page title)
+  }
+  
+
+
+For example:
+  
+function MYTHEME_preprocess_page(&$vars) {
+  if (drupal_is_front_page()) {
+    unset($vars['page']['content']['system_main']['default_message']); //will remove message "no front page content is created"
+    drupal_set_title(''); //removes welcome message (page title)
+  }
+}

@@ -1,0 +1,78 @@
+git clone https://github.com/symfony/symfony-demo
+
+cd symfony-demo/
+
+composer install --no-interaction
+composer update
+echo $PATH
+composer install --no-interaction
+composer update
+echo $PATH
+
+$ curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
+composer install --no-interaction
+sudo apt-get install php5-sqlite
+composer install --no-interaction
+symfony self-update
+composer create-project symfony/framework-standard-edition <project-name> 
+php app/console server:run
+------------------------------------------------------------------------
+
+php app/console server:run								//	Used to run server
+
+php app/console cache:clear 							//	Used to clear cache
+
+php app/console debug:router							//	See all current routes available
+
+php app/console assets:install							//	Used to install assets and make them available in projects
+
+php app/console generate:bundle							//	Used to generate new bundle
+
+php app/console doctrine:schema:update --force			//	Update Database schema
+
+composer require hwi/oauth-bundle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+git clone https://github.com/symfony/symfony-demo
+
+cd symfony-demo/
+
+composer install --no-interaction
+composer update
+echo $PATH
+
+$ curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
+composer install --no-interaction
+sudo apt-get install php5-sqlite
+composer install --no-interaction
+
+
+composer create-project symfony/framework-standard-edition <project-name> 
+php app/console server:run

@@ -1,0 +1,4 @@
+set or add this in index file
+
+ini_set('display_errors', 1); 
+

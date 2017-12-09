@@ -1,0 +1,3 @@
+run command 
+
+php -r 'phpinfo();' | grep -w php.ini

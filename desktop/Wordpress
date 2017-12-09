@@ -1,0 +1,6 @@
+For Wp Query use this reference
+https://codex.wordpress.org/Class_Reference/wpdb
+
+$wpdb	--- contains ifo about db query,dbname etc.
+
+to create cutom plug-in paste the following code and replace the desired info with your info

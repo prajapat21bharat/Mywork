@@ -1,0 +1,20 @@
+PDOException: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (111) in lock_may_be_available()
+
+Solution
+Open php.ini
+
+and change mysql.default_host to 
+
+mysql.default_host = '127.0.1.1'
+
+inf don't know tha location of php.ini run the following command
+
+php -r 'phpinfo();' | grep -w php.ini
+
+It will show the path to php.ini file
+
+Now change in database setting file or setting.php in drupal
+
+      'host' => 'localhost',
+				to      
+      'host' => '127.0.1.1',

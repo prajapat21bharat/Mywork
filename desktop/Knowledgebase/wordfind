@@ -1,0 +1,60 @@
+ntf-22@NTF-22:~$ grep -R "top-socials" /opt/lampp/htdocs 
+/opt/lampp/htdocs/sevenmag_custom/tpl/header.tpl.php:                  <div class="top-socials">
+/opt/lampp/htdocs/sevenmag_custom/css/ski(old-vlad-vackup).css:.top-socials a{
+/opt/lampp/htdocs/sevenmag_custom/css/ski(old-vlad-vackup).css:.top-socials .facebook{
+/opt/lampp/htdocs/sevenmag_custom/css/ski(old-vlad-vackup).css:.top-socials .twitter{
+/opt/lampp/htdocs/sevenmag_custom/css/ski(old-vlad-vackup).css:.top-socials .dribbble{
+/opt/lampp/htdocs/sevenmag_custom/css/ski(old-vlad-vackup).css:.top-socials .google{
+/opt/lampp/htdocs/sevenmag_custom/css/ski(old-vlad-vackup).css:.top-socials .pinterest{
+/opt/lampp/htdocs/sevenmag_custom/css/ski(old-vlad-vackup).css:.top-socials .facebook:hover:after{
+/opt/lampp/htdocs/sevenmag_custom/css/ski(old-vlad-vackup).css:.top-socials .twitter:hover:after{
+/opt/lampp/htdocs/sevenmag_custom/css/ski(old-vlad-vackup).css:.top-socials .dribbble:hover:after{
+/opt/lampp/htdocs/sevenmag_custom/css/ski(old-vlad-vackup).css:.top-socials .google:hover:after{
+/opt/lampp/htdocs/sevenmag_custom/css/ski(old-vlad-vackup).css:.top-socials .pinterest:hover:after{
+/opt/lampp/htdocs/sevenmag_custom/css/ski(old-vlad-vackup).css:  .top-socials{
+/opt/lampp/htdocs/sevenmag_custom/css/ski(old-vlad-vackup).css:  .top-socials{
+/opt/lampp/htdocs/sevenmag_custom/css/ski(old-vlad-vackup).css:  .top-socials a{
+/opt/lampp/htdocs/sevenmag_custom/css/ski(old-vlad-vackup).css:  .top-socials,
+/opt/lampp/htdocs/sevenmag_custom/css/ski(old-vlad-vackup).css:  .top-socials{
+/opt/lampp/htdocs/sevenmag_custom/css/ski(old-vlad-vackup).css:  .top-socials a{
+/opt/lampp/htdocs/sevenmag_custom/css/ski(old-vlad-vackup).css:  .top-socials,
+/opt/lampp/htdocs/sevenmag_custom/css/ski.cssBk-25-09-2015:.top-socials a{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.cssBk-25-09-2015:.top-socials .facebook{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.cssBk-25-09-2015:.top-socials .twitter{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.cssBk-25-09-2015:.top-socials .dribbble{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.cssBk-25-09-2015:.top-socials .google{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.cssBk-25-09-2015:.top-socials .pinterest{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.cssBk-25-09-2015:.top-socials .facebook:hover:after{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.cssBk-25-09-2015:.top-socials .twitter:hover:after{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.cssBk-25-09-2015:.top-socials .dribbble:hover:after{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.cssBk-25-09-2015:.top-socials .google:hover:after{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.cssBk-25-09-2015:.top-socials .pinterest:hover:after{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.cssBk-25-09-2015:  .top-socials{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.cssBk-25-09-2015:  .top-socials{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.cssBk-25-09-2015:  .top-socials a{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.cssBk-25-09-2015:  .top-socials,
+/opt/lampp/htdocs/sevenmag_custom/css/ski.cssBk-25-09-2015:  .top-socials{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.cssBk-25-09-2015:  .top-socials a{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.cssBk-25-09-2015:  .top-socials,
+/opt/lampp/htdocs/sevenmag_custom/css/ski.css:.top-socials a{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.css:.top-socials .facebook{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.css:.top-socials .twitter{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.css:.top-socials .dribbble{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.css:.top-socials .google{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.css:.top-socials .pinterest{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.css:.top-socials .facebook:hover:after{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.css:.top-socials .twitter:hover:after{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.css:.top-socials .dribbble:hover:after{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.css:.top-socials .google:hover:after{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.css:.top-socials .pinterest:hover:after{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.css:  .top-socials{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.css:  .top-socials{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.css:  .top-socials a{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.css:  .top-socials a {
+/opt/lampp/htdocs/sevenmag_custom/css/ski.css:  .top-socials,
+/opt/lampp/htdocs/sevenmag_custom/css/ski.css:  .top-socials{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.css:  .top-socials a{
+/opt/lampp/htdocs/sevenmag_custom/css/ski.css:  .top-socials a {
+/opt/lampp/htdocs/sevenmag_custom/css/ski.css:  .top-socials,
+/opt/lampp/htdocs/sevenmag_custom/css/ski.css:.top-socials a {
+/opt/lampp/htdocs/sevenmag_custom/css/ski.css:.top-socials {

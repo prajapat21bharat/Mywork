@@ -1,0 +1,11 @@
+grep -R "word" /path/to/folder
+
+
+
+grep -R "3292802" /opt/lampp/htdocs
+
+
+grep -R "beautifyenterprise" /opt/lampp/htdocs
+
+
+
