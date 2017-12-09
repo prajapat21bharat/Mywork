@@ -1,0 +1,264 @@
+
+
+/*bharat*/
+
+.text-error
+{
+    background: #FBE6F2 none repeat scroll 0 0;
+    border-top:1px solid red;
+    border-bottom:1px solid red;
+    color: #A70000;
+    margin: 5px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+.text-success-wrapper
+{
+    background: #E2F1A8 none repeat scroll 0 0;
+    border-top:1px solid green;
+    border-bottom:1px solid green;
+    color: green;
+    margin: 5px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+.text-error-close {
+    float: right;
+    padding-right: 15px;
+    font-weight: bold;
+    color:red;
+    cursor: pointer;
+}
+
+.text-success-close {
+    float: right;
+    padding-right: 15px;
+    font-weight: bold;
+    color:green;
+    cursor: pointer;
+}
+.btn-danger{ background-color: #B059D7 !important}
+.mandetory{ color:red;}
+
+.status_img {
+    width: 20px;
+}
+
+#user_img_avtar {
+    border: 1px solid #68268a !important;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.col-md-3.pasword_wrapper {
+    margin-top: 40px;
+}
+/*
+.image_search_medium{
+width:150px;
+}*/
+.search_li li {list-style:none;}
+
+
+.right-padder{margin-left:0px}
+
+
+
+.btn-black-small.manage_client{
+	margin-left:40px;
+}
+#advance_filter
+{
+	margin-top:14px;
+}
+
+.select_book{width:62px;}
+
+.select_tag {
+height: 80px !important;
+}
+
+.product_image {
+    height: 80px;
+    width: 80px;
+}
+
+#suggestion_container li {
+    text-align: center;
+}
+
+
+/*Select checkbox*/
+/*
+input[type=checkbox] {
+display:none;
+}
+ 
+input[type=checkbox] + label
+{
+background: #999;
+height: 16px;
+width: 16px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+input[type=checkbox]:checked + label
+{
+background: #0080FF;
+height: 16px;
+width: 16px;
+display:inline-block;
+padding: 0 0 0 0px;
+}
+*/
+
+
+#btn_book {
+    float: right;
+	margin-right: 4px;
+}
+.suggest_product_list img{ width:100px;}
+
+#suggest_pro_container li {
+    float: left;
+    padding-right: 12px;
+    list-style:none;
+}
+.diff_top > h3 {
+    margin-top: 20px;
+}
+.current{color:#fff !important;}
+
+@media (max-width:768px) {
+.upload-form #pic{display:block !important;}
+}
+.share_media{
+	display:none;
+	margin-left: 7px;
+	background:url("../images/new-edit-client-social.png") repeat-x scroll 0 0;
+	width:131px;
+	height:48px;
+	 margin-top: 0;
+	 float:left;
+	/*position: relative;
+	background: #88b7d5;
+	border: 4px solid #c2e1f5;*/
+	}
+	
+	/*.arrow_box {
+	position: relative;
+	background: #88b7d5;
+	border: 4px solid #c2e1f5;
+}*/
+/*.share_media:after, .share_media:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.share_media:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: #88b7d5;
+	border-width: 30px;
+	margin-left: -30px;
+}
+.share_media:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-bottom-color: #c2e1f5;
+	border-width: 36px;
+	margin-left: -36px;
+}*/
+	
+	/*arrow*/
+
+.stocked_brands li {
+    float: left;
+    list-style: outside none none;
+    margin-right: 27px;
+    width: 44%;
+}
+
+
+.share_media > a {
+	background:#e3e1e6;
+	color: #afafaf;
+    font-size: 18px;
+    left: 5px;
+    padding: 1px 6px 1px 7px;
+    position: relative;
+    top: 19px;
+	}
+.share_media > a:hover {
+   /* color: #68268a;*/
+    color: #fff;
+	background:#68268a;
+    }
+/*.img_product {
+   
+    width: 130px;
+}*/
+
+.setselected {
+  
+    position: relative;
+    top: 18px;
+    vertical-align: bottom !important;
+}
+
+#advance_filter_length {
+    text-transform: capitalize;
+}
+
+#upload_img_form #pic{ border:medium none;}
+.template_content_row  > *{font-weight:normal !important; font-size:12px !important;}
+
+#template_subject_container { display:none; }
+
+.separator {
+    border-bottom: 1px solid #68268a;
+    margin-top: 5px;
+	padding-bottom: 15px;
+	display:inline-block;
+}
+
+.loadmore_photos .photos-part
+{
+    margin-top: 21px;
+}
+
+.show_more_main {
+    background: #68268a none repeat scroll 0 0;
+   
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    padding: 5px;
+ 
+    text-align: center;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.img-tags .img-tagnames-img {
+    float: left;
+    /*width: 33.333%;*/
+     padding-top: 10px; /*added*/
+}
+
+.three_photos {
+    margin-bottom: 20px;
+}
+#tags_s {
+    height: 60px !important;
+}

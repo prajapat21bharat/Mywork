@@ -1,0 +1,219 @@
+ .contentpanel {
+	background: #fff;
+}
+.left-space-r {
+	margin-left: 10px;
+	margin-top: 12px;
+}
+/*.contentpanel.page-login {
+	width: 645px;
+	margin: 0 auto;
+}*/
+.contentpanel.changepass {
+	background: #FFF!important;
+	
+}
+
+
+/*.table > tbody > tr > td{
+	background:#f1f1f1;
+}*/
+
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+    background-color: #e5bff9 !important;
+}
+.table-striped > tbody > tr:nth-of-type(2n) {
+    background-color: #eedcf7!important;
+}
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td{
+	background:#68268a;
+	color:#FFF;
+	text-align:left;
+	font-size: 15px;
+}
+
+.cpwd{
+	margin-bottom:20px;
+}
+
+.block-web.UpPword h3{
+	margin-left:14px;
+}
+
+.table-bordered{
+	margin-top:12px;
+}
+
+
+/*
+.user_admin{
+	position:relative;
+}
+
+
+.user_adminname{
+	position:absolute;
+	margin-left:46px;
+	top:12px;
+}
+
+
+.caret{
+	position:absolute;
+	top:20px;
+	right:-5px;
+}
+*/
+
+.left-space-r{
+	margin-top:17px;
+}
+
+.right-space-r{
+	margin-top:17px;
+	padding-right:0px;
+}
+
+
+
+.btn-black-small.manage_client{
+	margin-left:40px;
+}
+
+#advance_filter{
+	margin-top:14px;}	
+
+/*addprouct */
+
+
+#table_client{
+	background-color:#68268a;
+	color:#fff;
+}
+
+.sign_upp{
+	margin-left:11px;
+}
+
+.sub_info{
+	margin-left:-1px!important;
+}
+
+.pay_info{
+	margin-left:-2px!important;
+}
+
+.bill_info{
+	margin-left:-2px !important;
+}
+
+
+.working_info{
+	background:#68268a;
+	color:#fff;
+}
+
+
+.side_heading{
+	background:#68268a;
+	color:#fff;
+}
+
+.add_catgry{
+	margin-bottom:-59px;
+	margin-left:-28px;
+}
+
+.addcatgry_submit{
+	width:100px;
+}
+
+.catrgy_name{
+	margin:13px 0;
+}
+
+
+#btn_changepassword{
+	margin-top:18px;
+}
+
+.mar_left{
+	margin-left:-2px!important;
+}
+
+@media only screen and (max-width: 1024px) {
+
+.addpro h2{
+	margin-left:-12px;
+	margin-bottom:-24px;
+}
+
+.btn.btn-danger.square-btn-adjust.login-input-bttn{
+	width:100px;
+}
+
+.checkbox > label{
+	margin-left:0px;
+
+}
+
+.addpro h2{
+	margin-bottom:0px!important;
+	margin-left:0px !important;
+	}
+
+
+
+.panel-primary > .panel-heading{
+	float:left;
+	width:100%;
+	}
+	
+	
+	
+.left-space-r{
+	padding-left:17px!important;
+}
+ 
+.right-space-r{
+	
+	padding-right:17px!important;
+}
+
+
+#show_field_change{
+	margin-top:-11px!important;
+}
+
+.lbl_fname{
+	margin-left:-33px!important;
+	}
+	
+	
+.table-responsive.manage_client{
+	overflow-x:auto!important;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 640px){
+	
+	.login-input{
+		width:257px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+	
+.btn_upload{
+	margin-top:10px!important;
+	width:193px!important;
+	}
+	
+}
+
+.white_content{
+	margin-left:15px;
+	width:92%;
+}
+.product_img {width:80px; height:80px;}

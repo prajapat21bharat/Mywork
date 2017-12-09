@@ -1,0 +1,110 @@
+@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */
+
+}
+@media (max-width:479px) {
+
+.information-btn li{
+	margin-bottom:10px;
+	width:100%;
+}
+}
+@media (max-width:767px) {
+.information-btn{
+	width:100%;
+}
+.carousel-inner .item .col-xs-4{
+	padding-left:0 !important;
+	padding-right:0 !important;
+}
+}
+@media (max-width:639px) {
+.carousel-control{
+	top:20%;
+}
+.right.carousel-control{
+	right:-31px !important;
+}
+.left.carousel-control{
+	left:-31px !important;
+}
+}
+@media screen and (min-width: 480px) and (max-width: 767px) { 
+.btn-black-small,
+a.btn-black-small:hover{
+	width:115px;
+}
+}
+@media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+
+}
+@media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+
+}
+@media (min-width:640px) {
+.carousel-control {
+	left: -60px;
+	top: 35% !important;
+	right: -60px !important;
+}
+.thumbnail{
+	margin-bottom:0;
+}
+}
+@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+@media (max-width:991px) {
+
+.client-search .row-first{
+	margin-bottom:0;
+}
+.client-search .selectpicker{
+	margin-bottom:15px;
+}
+.date-title{
+	font-size:14px;
+}
+.breadcrumb_admin .btn-black{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+}
+@media (max-width:991px) {
+.information-form label{
+	width:100%;
+}
+.information-form-wrap .pull-right{
+	float:left !important;
+	margin-top:15px;
+}
+.information-form select{
+	width:100% !important;
+}
+}
+@media (min-width:992px) {
+	.left-space-r{
+		padding-left:0;
+	}
+	.right-space-r{
+		padding-right:0;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 991px) { 
+	
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) { 
+.my-profile .btn-black-small{
+	width:100% ;
+}
+.breadcrumb_admin .checkbox-inline + .checkbox-inline{
+	margin-left:0;
+}
+.breadcrumb_admin .btn-black{
+	width:100%;
+}
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */
+
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */
+
+}

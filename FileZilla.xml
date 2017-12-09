@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<FileZilla3>
+    <Servers>
+        <Server>
+            <Host>server.ntftechnologies.com</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>budgetcontrol@server.ntftechnologies.com</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>BudgetControl Ntf</Name>
+            <Comments>server.ntftechnologies.com    &#x0A;budgetcontrol@server.ntftechnologies.com&#x0A;t0s93mDa&#x0A;</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>BudgetControl Ntf&#x0A;        
+        </Server>
+        <Server>
+            <Host>webbuildercompany.webhosting.be</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>webbuildercompany@webbuilder.company</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>Heinz</Name>
+            <Comments>host: webbuildercompany.webhosting.be&#x0A;user: webbuildercompany@webbuilder.company&#x0A;pasw: JEhS3Qg7&#x0A;Poort: 21</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>Heinz&#x0A;        
+        </Server>
+        <Server>
+            <Host>server.ntftechnologies.com</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>heinz@server.ntftechnologies.com</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>Heinz Ntf</Name>
+            <Comments>server.ntftechnologies.com&#x0A;heinz@server.ntftechnologies.com&#x0A;T2dspemk</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>Heinz Ntf&#x0A;        
+        </Server>
+        <Server>
+            <Host>46.101.179.105</Host>
+            <Port>22</Port>
+            <Protocol>1</Protocol>
+            <Type>0</Type>
+            <User>root</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>Kabret</Name>
+            <Comments>c55ad6badf9e9d94003</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>Kabret&#x0A;        
+        </Server>
+        <Server>
+            <Host>new.spy-cat.com</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>newftp@new.spy-cat.com</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>Lauren_NEW</Name>
+            <Comments />
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>Lauren_NEW&#x0A;        
+        </Server>
+        <Server>
+            <Host>dev.invoicingoffice.com</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>nilesh@dev.invoicingoffice.com</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>Mark</Name>
+            <Comments>ftp domain = dev.invoicingoffice.com&#x0A;ftp username = nilesh@dev.invoicingoffice.com&#x0A;ftp password = raaGFoQ3</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>Mark&#x0A;        
+        </Server>
+        <Server>
+            <Host>megaslamhoops.com</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>megantf@megaslamhoops.com</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>Megaslam</Name>
+            <Comments>Host - megaslamhoops.com&#x0A;User - megantf@megaslamhoops.com&#x0A;Pass - megaslam@NTF</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>Megaslam&#x0A;        
+        </Server>
+        <Server>
+            <Host>skinet-construction.com</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>mediacorpus</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>SKI</Name>
+            <Comments>skinet-construction.com&#x0A;mediacorpus&#x0A;O23d69I17ce17q2o</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>SKI&#x0A;        
+        </Server>
+        <Server>
+            <Host>s586565397.websitehome.co.uk</Host>
+            <Port>22</Port>
+            <Protocol>1</Protocol>
+            <Type>0</Type>
+            <User>u81796257</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>Soccer</Name>
+            <Comments>s586565397.websitehome.co.uk&#x0A;u81796257&#x0A;4015ZSgnJz.f8OuYN</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>Soccer&#x0A;        
+        </Server>
+        <Server>
+            <Host>slipstream.breezeweb.ca</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <Logontype>0</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>aaa</Name>
+            <Comments>slipstream.breezeweb.ca&#x0A;inop_extdev&#x0A;H^p74x3k</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>aaa&#x0A;        
+        </Server>
+        <Server>
+            <Host>server.ntftechnologies.com</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>inhairent@server.ntftechnologies.com</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>appinhairent</Name>
+            <Comments>HXj7FiQp</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>appinhairent&#x0A;        
+        </Server>
+        <Server>
+            <Host>74.208.229.250</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>ntf_ftp</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>blacksmithsteakhouse.com</Name>
+            <Comments>ntf@12345</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>blacksmithsteakhouse.com&#x0A;        
+        </Server>
+        <Server>
+            <Host>cryptobrains.com</Host>
+            <Port>2200</Port>
+            <Protocol>1</Protocol>
+            <Type>0</Type>
+            <User>cryptobrains</User>
+            <Pass>7o4ua1sj2rlJdxHh</Pass>
+            <Logontype>1</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>cryptobrains.com</Name>
+            <Comments />
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>cryptobrains.com&#x0A;        
+        </Server>
+        <Server>
+            <Host>lisa-pc7.ulb.ac.be</Host>
+            <Port>22</Port>
+            <Protocol>1</Protocol>
+            <Type>0</Type>
+            <User>carlos</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>dayiga</Name>
+            <Comments>Folder path in ftp :-  /var/www/dayiga&#x0A;host : lisa-pc7.ulb.ac.be&#x0A;login : carlos&#x0A;Password : Zamalloa2015!&#x0A;protocol :sftp</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>dayiga&#x0A;        
+        </Server>
+        <Server>
+            <Host>devel.ntftechnologies.com</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>newtech</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>devel.ntftechnology</Name>
+            <Comments>ntf@4321</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>devel.ntftechnology&#x0A;        
+        </Server>
+        <Server>
+            <Host>server.ntftechnologies.com</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>ehsan@server.ntftechnologies.com</User>
+            <Pass>Wt17rbkC</Pass>
+            <Logontype>1</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>ehsan</Name>
+            <Comments>server.ntftechnologies.com &#x0A;ehsan@server.ntftechnologies.com&#x0A;Wt17rbkC</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>ehsan&#x0A;        
+        </Server>
+        <Server>
+            <Host>115.166.142.234</Host>
+            <Port>22</Port>
+            <Protocol>1</Protocol>
+            <Type>0</Type>
+            <User>devserver</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>filipina system</Name>
+            <Comments>115.166.142.234&#x0A;devserver&#x0A;ntf@4321234&#x0A;</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>filipina system&#x0A;        
+        </Server>
+        <Server>
+            <Host>ftp.laurenn.siteground.net</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>Drupaluser@laurenn.siteground.net</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>ftp.laurenn.siteground.net</Name>
+            <Comments>)ggDU28P_^_q</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>ftp.laurenn.siteground.net&#x0A;        
+        </Server>
+        <Server>
+            <Host>ftp.cluster007.ovh.net</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>galleryf</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>gallery.fizi</Name>
+            <Comments>ftp.cluster007.ovh.net&#x0A;galleryf&#x0A;dcxCEcys</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>gallery.fizi&#x0A;        
+        </Server>
+        <Server>
+            <Host>server.ntftechnologies.com</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>hootask@server.ntftechnologies.com</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>hootask</Name>
+            <Comments>server.ntftechnologies.com&#x0A;hootask@server.ntftechnologies.com&#x0A;BAbgV3aX</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>hootask&#x0A;        
+        </Server>
+        <Server>
+            <Host>slipstream.breezeweb.ca</Host>
+            <Port>21</Port>
+            <Protocol>4</Protocol>
+            <Type>0</Type>
+            <User>inop_extdev</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>infinitie</Name>
+            <Comments>ftpes://slipstream.breezeweb.ca&#x0A;inop_extdev&#x0A;H^p74x3k</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>infinitie&#x0A;        
+        </Server>
+        <Server>
+            <Host>ftp.d7.indiebound.com</Host>
+            <Port>222</Port>
+            <Protocol>1</Protocol>
+            <Type>0</Type>
+            <User>ivybooks</User>
+            <Pass>RTf66k3LMb</Pass>
+            <Logontype>1</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>ivybookshop</Name>
+            <Comments>Host: sftp://ftp.d7.indiebound.com&#x0A;Port: 222&#x0A;username: ivybooks&#x0A;password: RTf66k3LMb&#x0A;</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>ivybookshop&#x0A;        
+        </Server>
+        <Server>
+            <Host>u65173632.1and1-data.host</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>u65173632-ntf</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>kahanfineart</Name>
+            <Comments>u65173632.1and1-data.host&#x0A;u65173632-ntf&#x0A;ntf@NTF12345</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>kahanfineart&#x0A;        
+        </Server>
+        <Server>
+            <Host>latalkradio.com</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>ntfrahul</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>latalk</Name>
+            <Comments>ntf@12345</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>latalk&#x0A;        
+        </Server>
+        <Server>
+            <Host>209.133.220.161</Host>
+            <Port>39337</Port>
+            <Protocol>1</Protocol>
+            <Type>0</Type>
+            <User>leadership</User>
+            <Pass>cel8OH0%9Fv@aZp80T!%</Pass>
+            <Logontype>1</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>leadership.ng</Name>
+            <Comments>Host: 209.133.220.161/2083&#x0A;leadership&#x0A;cel8OH0%9Fv@aZp80T!%</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>leadership.ng&#x0A;        
+        </Server>
+        <Server>
+            <Host>ftp.lunarcircus.com</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>ntfct@lunarcircus.com</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>lunarcircus</Name>
+            <Comments>ftp.lunarcircus.com&#x0A;ntfct@lunarcircus.com&#x0A;ntf@1234</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>lunarcircus&#x0A;        
+        </Server>
+        <Server>
+            <Host>ntftechnologies.com</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>magellan@ntftechnologies.com</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>magellancompass.com</Name>
+            <Comments>user- magellan@ntftechnologies.com &#x0A;pass- NTF@magellan2016&#x0A;domain - ntftechnologies.com</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>magellancompass.com&#x0A;        
+        </Server>
+        <Server>
+            <Host>server.ntftechnologies.com</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>megaslam@server.ntftechnologies.com</User>
+            <Pass>hjxB8mda</Pass>
+            <Logontype>1</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>megaslam.server</Name>
+            <Comments> server.ntftechnologies.com    &#x0A; megaslam@server.ntftechnologies.com     &#x0A;hjxB8mda</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>megaslam.server&#x0A;        
+        </Server>
+        <Server>
+            <Host>megaslamhoops.com</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>megantf@megaslamhoops.com</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>megaslamnew</Name>
+            <Comments>megaslamhoops.com&#x0A;megantf@megaslamhoops.com&#x0A;megaslam@NTF</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>megaslamnew&#x0A;        
+        </Server>
+        <Server>
+            <Host>myexpressfreight.com</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>garyntf@myexpressfreight.com</User>
+            <Pass>ntf@12345</Pass>
+            <Logontype>1</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>myexpressfreight.com</Name>
+            <Comments>ftp&#x0A;Host:-myexpressfreight.com&#x0A;Uname:-garyntf@myexpressfreight.com&#x0A;Passowrd:-ntf@12345</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>myexpressfreight.com&#x0A;        
+        </Server>
+        <Server>
+            <Host>rsr-intl.com</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>rsr-nilesh@rsr-intl.com</User>
+            <Pass>#&amp;ditd&amp;543RfB</Pass>
+            <Logontype>1</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>myhomeonly.com</Name>
+            <Comments>rsr-intl.com&#x0A;rsr-nilesh@rsr-intl.com&#x0A;#&amp;ditd&amp;543RfB</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>myhomeonly.com&#x0A;        
+        </Server>
+        <Server>
+            <Host>new.spy-cat.com</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>new_spy_cat@new.spy-cat.com</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>new.spy-cat.com</Name>
+            <Comments />
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>new.spy-cat.com&#x0A;        
+        </Server>
+        <Server>
+            <Host>newtechfusion.com</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>promotion@newtechfusion.com</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>newtechfusion.com</Name>
+            <Comments>host- newtechfusion.com&#x0A;user- promotion@newtechfusion.com&#x0A;pass- NTF@promotion2016</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>newtechfusion.com&#x0A;        
+        </Server>
+        <Server>
+            <Host>puuroffice.be</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>dev_puuroffice@puuroffice.be</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>puuroffice.be</Name>
+            <Comments>puuroffice.be&#x0A;dev_puuroffice@puuroffice.be&#x0A;@dm1n&#x0A;</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>puuroffice.be&#x0A;        
+        </Server>
+        <Server>
+            <Host>52.37.112.5</Host>
+            <Port>22</Port>
+            <Protocol>1</Protocol>
+            <Type>0</Type>
+            <User>ubuntu</User>
+            <Logontype>3</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>ratethisbuilding.com</Name>
+            <Comments>52.37.112.5&#x0A;ubuntu</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>ratethisbuilding.com&#x0A;        
+        </Server>
+        <Server>
+            <Host>server.ntftechnologies.com</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>rhythm@server.ntftechnologies.com</User>
+            <Pass>rf3Rbuyc</Pass>
+            <Logontype>1</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>rhythm</Name>
+            <Comments>server.ntftechnologies.com&#x0A;rhythm@server.ntftechnologies.com&#x0A;rf3Rbuyc</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>rhythm&#x0A;        
+        </Server>
+        <Server>
+            <Host>rrp.netplatform.net</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>ntf</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>rrp.netplatform.net</Name>
+            <Comments>rrp.netplatform.net&#x0A;ntf&#x0A;pQoh09!8</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>rrp.netplatform.net&#x0A;        
+        </Server>
+        <Server>
+            <Host>192.168.1.177</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>ntf-33</User>
+            <Pass>ntf12345</Pass>
+            <Logontype>1</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>rupali-machine</Name>
+            <Comments />
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>rupali-machine&#x0A;        
+        </Server>
+        <Server>
+            <Host>server.ntftechnologies.com</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>puuroffice@server.ntftechnologies.com</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>server.puuroffice</Name>
+            <Comments> server.ntftechnologies.com    &#x0A; puuroffice@server.ntftechnologies.com&#x0A;tO3mLdD6</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>server.puuroffice&#x0A;        
+        </Server>
+        <Server>
+            <Host>sql.sustainsoftware.com</Host>
+            <Port>2121</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>devpatel</User>
+            <Pass>G00gl3sm4sh</Pass>
+            <Logontype>1</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>sql.sustainsoftware.com</Name>
+            <Comments>sql.sustainsoftware.com&#x0A;devpatel&#x0A;G00gl3sm4sh&#x0A;2121</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>sql.sustainsoftware.com&#x0A;        
+        </Server>
+        <Server>
+            <Host>server.ntftechnologies.com</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>swiperdemo@server.ntftechnologies.com</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>swiper</Name>
+            <Comments>Domain  :-  server.ntftechnologies.com   &#x0A;             User       :- swiperdemo@server.ntftechnologies.com    &#x0A;             Passwd   :-  gkzrbOQG&#x0A;</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>swiper&#x0A;        
+        </Server>
+        <Server>
+            <Host>server.ntftechnologies.com</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>tabsapp@server.ntftechnologies.com</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>tabsapp</Name>
+            <Comments>server.ntftechnologies.com&#x0A;tabsapp@server.ntftechnologies.com&#x0A;w9he1T7U</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>tabsapp&#x0A;        
+        </Server>
+        <Server>
+            <Host>182.71.35.193</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>php55dev1</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>theinteriordirectory</Name>
+            <Comments>Host: 182.71.35.193&#x0A;User: php55dev1&#x0A;Pass: Lkoi87YG#t54ED3&#x0A;fav-allalbum&#x0A;&#x0A;</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>theinteriordirectory&#x0A;        
+        </Server>
+        <Server>
+            <Host>ftp.d7.indiebound.com</Host>
+            <Port>222</Port>
+            <Protocol>1</Protocol>
+            <Type>0</Type>
+            <User>ivybooks</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>theivybookshop</Name>
+            <Comments>ftp.d7.indiebound.com&#x0A;ivybooks&#x0A;RTf66k3LMb</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>theivybookshop&#x0A;        
+        </Server>
+        <Server>
+            <Host>88.198.105.8</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>antonioantonio</User>
+            <Pass>Yw4vFCud#vJ</Pass>
+            <Logontype>1</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>varsovienne</Name>
+            <Comments>88.198.105.8&#x0A;antonioantonio&#x0A;Yw4vFCud#vJ</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>varsovienne&#x0A;        
+        </Server>
+        <Server>
+            <Host>whatsdadilly.com</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>designer@whatsdadilly.com</User>
+            <Pass>WOmWCW+ghcmf</Pass>
+            <Logontype>1</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>whatsappdaidly.com</Name>
+            <Comments>WOmWCW+ghcmf</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>whatsappdaidly.com&#x0A;        
+        </Server>
+        <Server>
+            <Host>192.168.1.68</Host>
+            <Port>22</Port>
+            <Protocol>1</Protocol>
+            <Type>0</Type>
+            <User>ntf-29</User>
+            <Logontype>2</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>yeoman</Name>
+            <Comments>ntf12345</Comments>
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>yeoman&#x0A;        
+        </Server>
+    </Servers>
+    <Settings>
+        <Setting name="Use Pasv mode">1</Setting>
+        <Setting name="Limit local ports">0</Setting>
+        <Setting name="Limit ports low">6000</Setting>
+        <Setting name="Limit ports high">7000</Setting>
+        <Setting name="External IP mode">0</Setting>
+        <Setting name="External IP" />
+        <Setting name="External address resolver">http://ip.filezilla-project.org/ip.php</Setting>
+        <Setting name="Last resolved IP" />
+        <Setting name="No external ip on local conn">1</Setting>
+        <Setting name="Pasv reply fallback mode">0</Setting>
+        <Setting name="Timeout">20</Setting>
+        <Setting name="Logging Debug Level">0</Setting>
+        <Setting name="Logging Raw Listing">0</Setting>
+        <Setting name="fzsftp executable" />
+        <Setting name="Allow transfermode fallback">1</Setting>
+        <Setting name="Reconnect count">2</Setting>
+        <Setting name="Reconnect delay">5</Setting>
+        <Setting name="Enable speed limits">0</Setting>
+        <Setting name="Speedlimit inbound">100</Setting>
+        <Setting name="Speedlimit outbound">20</Setting>
+        <Setting name="Speedlimit burst tolerance">0</Setting>
+        <Setting name="View hidden files">1</Setting>
+        <Setting name="Preserve timestamps">0</Setting>
+        <Setting name="Socket recv buffer size (v2)">4194304</Setting>
+        <Setting name="Socket send buffer size (v2)">262144</Setting>
+        <Setting name="FTP Keep-alive commands">0</Setting>
+        <Setting name="FTP Proxy type">0</Setting>
+        <Setting name="FTP Proxy host" />
+        <Setting name="FTP Proxy user" />
+        <Setting name="FTP Proxy password" />
+        <Setting name="FTP Proxy login sequence" />
+        <Setting name="SFTP keyfiles">/home/ntf-22/ftp1.ppk&#x0A;/home/ntf-22/Desktop/kts.ppk&#x0A;/home/ntf-22/Snag.ppk&#x0A;/home/ntf-22/Desktop/Drew.ppk</Setting>
+        <Setting name="Proxy type">0</Setting>
+        <Setting name="Proxy host" />
+        <Setting name="Proxy port">0</Setting>
+        <Setting name="Proxy user" />
+        <Setting name="Proxy password" />
+        <Setting name="Logging file" />
+        <Setting name="Logging filesize limit">10</Setting>
+        <Setting name="Trusted root certificate" />
+        <Setting name="Size format">3</Setting>
+        <Setting name="Size thousands separator">1</Setting>
+        <Setting name="Size decimal places">1</Setting>
+        <Setting name="Number of Transfers">2</Setting>
+        <Setting name="Ascii Binary mode">0</Setting>
+        <Setting name="Auto Ascii files">am|asp|bat|c|cfm|cgi|conf|cpp|css|dhtml|diz|h|hpp|htm|html|in|inc|java|js|jsp|lua|m4|mak|md5|nfo|nsi|pas|patch|php|phtml|pl|po|py|qmail|sh|shtml|sql|svg|tcl|tpl|txt|vbs|xhtml|xml|xrc</Setting>
+        <Setting name="Auto Ascii no extension">1</Setting>
+        <Setting name="Auto Ascii dotfiles">1</Setting>
+        <Setting name="Theme">opencrystal/</Setting>
+        <Setting name="Language Code" />
+        <Setting name="Last Server Path" />
+        <Setting name="Concurrent download limit">0</Setting>
+        <Setting name="Concurrent upload limit">0</Setting>
+        <Setting name="Update Check">1</Setting>
+        <Setting name="Update Check Interval">7</Setting>
+        <Setting name="Last automatic update check" />
+        <Setting name="Update Check New Version" />
+        <Setting name="Update Check Check Beta">0</Setting>
+        <Setting name="Update Check Download Dir" />
+        <Setting name="Show debug menu">0</Setting>
+        <Setting name="File exists action download">0</Setting>
+        <Setting name="File exists action upload">0</Setting>
+        <Setting name="Allow ascii resume">0</Setting>
+        <Setting name="Greeting version">3.5.3</Setting>
+        <Setting name="Onetime Dialogs">011</Setting>
+        <Setting name="Show Tree Local">1</Setting>
+        <Setting name="Show Tree Remote">1</Setting>
+        <Setting name="File Pane Layout">0</Setting>
+        <Setting name="File Pane Swap">0</Setting>
+        <Setting name="Last local directory">/media/Your Data/rupali/ba/backup/25/</Setting>
+        <Setting name="Filelist directory sort">0</Setting>
+        <Setting name="Queue successful autoclear">0</Setting>
+        <Setting name="Queue column widths">180 60 447 80 60 100</Setting>
+        <Setting name="Local filelist colwidths">390 80 100 120</Setting>
+        <Setting name="Remote filelist colwidths">305 71 71 180 80 80</Setting>
+        <Setting name="Window position and size">1 313 24 900 663 </Setting>
+        <Setting name="Splitter positions (v2)">97 -147 473804100 154 100 500000000</Setting>
+        <Setting name="Local filelist sortorder">0 0</Setting>
+        <Setting name="Remote filelist sortorder">0 0</Setting>
+        <Setting name="Time Format">0</Setting>
+        <Setting name="Date Format">0</Setting>
+        <Setting name="Show message log">1</Setting>
+        <Setting name="Show queue">1</Setting>
+        <Setting name="Default editor">2/usr/bin/geany</Setting>
+        <Setting name="Always use default editor">0</Setting>
+        <Setting name="Inherit system associations">1</Setting>
+        <Setting name="Custom file associations" />
+        <Setting name="Comparison mode">1</Setting>
+        <Setting name="Comparison threshold">1</Setting>
+        <Setting name="Site Manager position">0 397 160 620 472 </Setting>
+        <Setting name="Theme icon size" />
+        <Setting name="Timestamp in message log">0</Setting>
+        <Setting name="Sitemanager last selected">0rupali-machine/</Setting>
+        <Setting name="Local filelist shown columns">1111</Setting>
+        <Setting name="Remote filelist shown columns">111111</Setting>
+        <Setting name="Local filelist column order">0,1,2,3</Setting>
+        <Setting name="Remote filelist column order">0,1,2,3,4,5</Setting>
+        <Setting name="Filelist status bar">1</Setting>
+        <Setting name="Filter toggle state">0</Setting>
+        <Setting name="Show quickconnect bar">1</Setting>
+        <Setting name="Messagelog position">0</Setting>
+        <Setting name="Last connected site">0/kahanfineart</Setting>
+        <Setting name="File doubleclock action">0</Setting>
+        <Setting name="Dir doubleclock action">0</Setting>
+        <Setting name="Minimize to tray">0</Setting>
+        <Setting name="Search column widths" />
+        <Setting name="Search column shown" />
+        <Setting name="Search column order" />
+        <Setting name="Search window size">0 388 133 750 500 </Setting>
+        <Setting name="Comparison hide identical">0</Setting>
+        <Setting name="Search sort order" />
+        <Setting name="Edit track local">1</Setting>
+        <Setting name="Prevent idle sleep">1</Setting>
+        <Setting name="Filteredit window size" />
+        <Setting name="Enable invalid char filter">1</Setting>
+        <Setting name="Invalid char replace">_</Setting>
+        <Setting name="Already connected choice">0</Setting>
+        <Setting name="Edit status dialog size" />
+        <Setting name="Display current speed">0</Setting>
+        <Setting name="Toolbar hidden">0</Setting>
+        <Setting name="Strip VMS revisions">0</Setting>
+        <Setting name="Show Site Manager on startup">0</Setting>
+        <Setting name="Config Location">/home/ntf-22/.filezilla</Setting>
+        <Setting name="Kiosk mode">0</Setting>
+        <Setting name="Disable update check">0</Setting>
+        <LastServer>
+            <Host>192.168.1.200</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>jeet</User>
+            <Pass>ntf@12345</Pass>
+            <Logontype>1</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+        </LastServer>
+    </Settings>
+    <Queue />
+</FileZilla3>
